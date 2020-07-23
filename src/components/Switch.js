@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import MuiSwitch from "@material-ui/core/Switch";
 import Paper from "@material-ui/core/Paper";
+import playClickSound from "../libs/playClickSound";
 
 const useStyles = makeStyles((theme) => ({
   rotateSwitch: {
@@ -26,6 +27,8 @@ const useSwitchState = (defaultValue = "down") => {
     onChange: () => {
       if (option === "up") setOption("down");
       else setOption("up");
+
+      playClickSound();
     },
   };
 };
