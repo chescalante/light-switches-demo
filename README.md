@@ -8,7 +8,7 @@ Open [https://light-switches-demo.web.app/](https://light-switches-demo.web.app/
 
 Simple demonstration of truth tables in Javascript, inspired by Uncle Bob's [keynote](https://www.youtube.com/watch?v=-1CuAiKdBQs).
 
-It can be used for educational purposes.
+It can be used for educational purposes..
 
     Check: src/handleLight.js
 
