@@ -1,5 +1,3 @@
-[![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### DEMO
